@@ -1,0 +1,56 @@
+/*
+    @theme Super Zen
+    @override-placeholders html, xml, css, js, php
+    @author Marcus Olovsson
+    @version 0.1
+*/
+
+@base {
+	background-color: #222;
+	color: #ddd;
+	selection-background-color: #444;
+	insertion-point-color: #aaa;
+	spell-check: disabled;
+}
+
+tag, source, sourcecode {
+	spell-check: disabled;
+}
+
+comment {
+    color: #555;
+}
+
+tag, variable name, property-name, php function {
+    color: #f5989d;
+}
+
+tag punctuation, selector, operator, keyword.control, storage, inheritance keyword, keyword.modifier, php pointer {
+    color: #ff0066;
+}
+
+variable string * {
+    background: #440016;
+    color: #ff0066;
+}
+
+null, undefined {
+    color: #f26522;
+    background: #4e1900;
+}
+
+boolean, property-value constant {
+    background: #00372c;
+    color: #1cbb9b;
+}
+
+numeric {
+    color: #00aeef;
+    background: #00394e;
+}
+
+regex, regex punctuation, string, string punctuation, attribute-value.string punctuation,
+property-value constant.color, property-value punctuation.constant {
+    background: #223608;
+    color: #96d443;
+}
