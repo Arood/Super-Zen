@@ -2,7 +2,7 @@
 
 Super Zen is an [Espresso][esp] theme, with a dark background and pretty colors. I guess it's a little bit inspired by [Monokai][monokai] and [D is for dark][disfordark], but my goal was to make a dark theme with pink colors that worked well with JavaScript.
 
-Right now it works with JavaScript, CSS, HTML and PHP.
+Right now it works with JavaScript, SASS, CSS, HTML and PHP.
 
 <img src="http://marcusolovsson.se/work/superzen.png" />
 

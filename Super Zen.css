@@ -1,6 +1,6 @@
 /*
     @theme Super Zen
-    @override-placeholders html, xml, css, js, php
+    @override-placeholders html, xml, css, js, php, sass
     @author Marcus Olovsson
     @version 0.1
 */
@@ -44,13 +44,24 @@ boolean, property-value constant {
     color: #1cbb9b;
 }
 
+css property-value, sass property-value {
+  color: #1cbb9b;
+}
+
+css property-value separator,
+css property-value terminator,
+sass property-value separator,
+sass property-value terminator {
+  color: #ddd;
+}
+
 numeric {
     color: #00aeef;
     background: #00394e;
 }
 
 regex, regex punctuation, string, string punctuation, attribute-value.string punctuation,
-property-value constant.color, property-value punctuation.constant {
+property-value constant.color, property-value zconstant.color, property-value punctuation.constant {
     background: #223608;
     color: #96d443;
 }
