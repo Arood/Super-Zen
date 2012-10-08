@@ -1,6 +1,6 @@
 /*
     @theme Super Zen
-    @override-placeholders html, xml, css, js, php, sass
+    @override-placeholders html, xml, css, js, php, sass, ObjC, python
     @author Marcus Olovsson
     @version 0.1
 */
@@ -21,7 +21,7 @@ comment {
     color: #555;
 }
 
-tag, variable name, property-name, php function {
+tag, variable name, property-name, php function, objc.function, python variable {
     color: #f5989d;
 }
 
@@ -51,7 +51,8 @@ css property-value, sass property-value {
 css property-value separator,
 css property-value terminator,
 sass property-value separator,
-sass property-value terminator {
+sass property-value terminator,
+python variable.function {
   color: #ddd;
 }
 
