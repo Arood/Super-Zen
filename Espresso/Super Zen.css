@@ -6,15 +6,15 @@
 */
 
 @base {
-	background-color: #222;
-	color: #ddd;
-	selection-background-color: #444;
-	insertion-point-color: #aaa;
-	spell-check: disabled;
+    background-color: #222;
+    color: #ddd;
+    selection-background-color: #444;
+    insertion-point-color: #aaa;
+    spell-check: disabled;
 }
 
 tag, source, sourcecode {
-	spell-check: disabled;
+    spell-check: disabled;
 }
 
 comment {
